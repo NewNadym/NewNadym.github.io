@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новый Надым</title>
+    <link rel="shortcut icon" href="images/faviconE.ico" type="image/x-icon">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .slick-prev:before, .slick-next:before{
+        color: black !important;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+
+  <body>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <a href="/" style="display: inline-block;"><img class="d-block mx-auto mb-4" src="images/logoS.png" alt="" width="72" height="72"></a>
+            <h1 class="fw-light">11. Клуб</h1>
+            
+            <nav aria-label="breadcrumb" style="margin: 20px 0;">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                <li class="breadcrumb-item active" aria-current="page">11. Клуб</li>
+              </ol>
+            </nav>
+            <p class="lead text-muted">
+              При 501-й стройке здание использовалось в качестве столовой для вольнонаёмных.
+              <br>При экспедиции здесь был организован клуб, который просуществовал до 1975 года.
+              <br>Справа находилась библиотека (это было ее второе место).
+            </p>
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11229/nadym/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Надым</a><a href="https://yandex.ru/maps/11229/nadym/?l=sat%2Cskl&ll=72.513061%2C65.535456&mode=usermaps&source=constructorLink&um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&utm_medium=mapframe&utm_source=maps&z=19" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Надыма с улицами и номерами домов онлайн — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUmqYRp3B" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>  
+          </div>
+        </div>
+      </section>
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h3 class="text-center"style="margin: 0px 0 30px;">Галерея</h3>
+          <div class="gallery">
+            <div>
+              <img src="images/11/1.jpg" style="max-width: 100%; margin: 0 auto;">
+            </div>
+            <div>
+              <img src="images/11/2.jpg" style="max-width: 100%; margin: 0 auto;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="py-3 my-4" style="margin: 0 !important;">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"></ul>
+        <p class="text-center text-muted">&copy; 2021 <a href="https://vk.com/history_photo_nadym">Сообщество "Надым в объективе"</a></p>
+      </footer>
+      
+    </main>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.gallery').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true
+        });
+      });
+    </script>
+  </body>
+</html>
