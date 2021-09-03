@@ -20,17 +20,38 @@
           font-size: 3.5rem;
         }
       }
+
+      .mainBkg{
+        background: url(images/main.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height:100%;
+        left:0;
+        position: absolute;
+        top:0;
+        width:100%;
+      }
     </style>
   </head>
 
   <body>
-    <main>
+    <main class="mainBkg">
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-          <img class="d-block mx-auto mb-4" src="images/logoS.png" alt="" width="72" height="72">
-            <h1 class="fw-light">Новый Надым 1960-х</h1>
-            <p class="lead text-muted">
+          
+
+            
+            <div class="alert alert-secondary" role="alert" style="background: rgba(226, 227, 229, 0.8);">
+              <img class="d-block mx-auto mb-4" src="images/logoS.png" alt="" width="72" height="72">
+              <h1 class="fw-light">Новый Надым 1960-х</h1>
+            
+              <button type="button" class="btn btn-primary">О проекте</button>
+              <button type="button" class="btn btn-danger">Карта</button>
+              <button type="button" class="btn btn-success">Объекты</button>
+              <button type="button" class="btn btn-secondary">3D</button>
+            </div>
+            <!--p class="lead text-muted">
               История Надыма началась задолго до 9 марта 1972 года, когда он получил статус города.
               Днём рождения можно считать 22 апреля 1949 года, когда на 107 километре (107 колонна) санный поезд высадил первый десант строителей 501 стройки.
               Именно тогда на карте появился Новый Надым (так назывался наш город до 1970-х гг.).
@@ -42,11 +63,11 @@
               Карта является интерактивной: при нажатии на дом открывается его описание.
               </br></br>
               Проект разработан <a href="https://vk.com/history_photo_nadym" target="_blank">сообществом "Надым в объективе"</a>.
-            </p>
+            </p-->
           </div>
         </div>
       </section>
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+      <!--script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script-->
     </main>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
