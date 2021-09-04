@@ -21,6 +21,156 @@
         }
       }
 
+      .mainBkg{
+        background: url(images/main.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        height:100%;
+        left:0;
+        position: absolute;
+        top:0;
+        width:100%;
+      }
+      .slick-prev:before, .slick-next:before{
+        color: black !important;
+      }
+      .blockquote {
+      font-size: 1.1rem !important;
+  }
+    </style>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+
+  <body>
+    <main class="mainBkg">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <div class="alert alert-secondary" role="alert" style="background: rgba(226, 227, 229, 0.7);">
+              <img class="d-block mx-auto mb-4" src="images/logoS.png" alt="" width="72" height="72">
+              <h1 class="fw-light" style="margin-bottom: 50px;color: black;">Новый Надым 1960-х</h1>
+            
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">О проекте</button>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal3">Карта</button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2" id="exampleModal2b" style="display: none;">Объект</button>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <p class="text-center" style="position: absolute; bottom: 0; margin: 0; right: 0; left: 0;padding: 10px 0;background: rgba(226, 227, 229, 0.7);border-color: #d3d6d8;">&copy; 2021 <a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
+    </main>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">О проекте</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            История Надыма началась задолго до 9 марта 1972 года, когда он получил статус города.
+            Днём рождения можно считать 22 апреля 1949 года, когда на 107 километре (107 колонна) санный поезд высадил первый десант строителей 501 стройки.
+            Именно тогда на карте появился Новый Надым (так назывался наш город до 1970-х гг.).
+            </br></br>
+            Проект "Новый Надым 1960-х" представляет собой <a href="https://yandex.ru/maps/-/CCUmuWWElC" target="_blank">карту Нового Надыма 1969-70 гг.</a>,
+            дополненную воспоминаниями <a href="https://vk.com/id150551000" target="_blank">Валерия Мартынова</a>, почётного гражданина Надыма, проживающем здесь с 1965 года.
+            </br></br>
+            Карта Нового Надыма нанесена поверх карты современного Надыма, чтобы можно было понять, где находился тот или иной дом.
+            Карта является интерактивной: при нажатии на дом открывается его описание.
+            </br></br>
+            Проект разработан <a href="https://vk.com/history_photo_nadym" target="_blank">сообществом "Надым в объективе"</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">13. Кузнеца и мастерская</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/11229/nadym/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Надым</a><a href="https://yandex.ru/maps/11229/nadym/?l=sat%2Cskl&ll=72.512424%2C65.535064&mode=usermaps&source=constructorLink&um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&utm_medium=mapframe&utm_source=maps&z=19" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Надыма с улицами и номерами домов онлайн — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=72.512424%2C65.535064&mode=usermaps&source=constructorLink&um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&z=19" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+            <div class="album py-5 bg-light">
+              <div class="container">
+                <h3 class="text-center"style="margin: 0px 0 30px;">Галерея</h3>
+                <div class="gallery">
+                  <div>
+                    <img src="images/13/1.jpg" style="max-width: 100%; margin: 0 auto;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">Карта</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.gallery').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true
+        });
+
+        $('#exampleModal2b').trigger('click');
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+<!--doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новый Надым</title>
+    <link rel="shortcut icon" href="images/faviconE.ico" type="image/x-icon">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
       .slick-prev:before, .slick-next:before{
         color: black !important;
       }
