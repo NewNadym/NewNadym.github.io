@@ -83,13 +83,6 @@
     },
 
     computed: {},
-
-    watch: {
-      $route(toR, fromR) {
-        this.id = toR.params['id']
-        this.loadPage()
-      },
-    },
   }
 </script>
 
