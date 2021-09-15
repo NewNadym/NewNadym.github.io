@@ -28,13 +28,6 @@ export default {
         id: this.$route.params.id,
       }
     },
-
-    watch: {
-      $route(toR, fromR) {
-        this.id = toR.params['id']
-        this.dialog = false
-      },
-    },
 };
 </script>
 
