@@ -18,7 +18,7 @@
       </template>
       <v-card>
         <v-card-title>
-          "Забытые улицы Надыма", 2013
+          Забытые улицы Надыма
           <v-spacer></v-spacer>
           <v-icon @click="dialog = false">mdi-close</v-icon>
         </v-card-title>
