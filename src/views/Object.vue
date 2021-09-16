@@ -16,7 +16,7 @@
           Объект
         </v-btn>
       </template>
-      <v-card>
+      <v-card v-if="this.object">
         <v-card-title>
           {{object.title}}
           <v-spacer></v-spacer>
@@ -53,6 +53,22 @@
           </template>
         </v-card-text>
       </v-card>
+      <v-card v-else>
+        <v-card-title>
+          <v-spacer></v-spacer>
+          <v-icon @click="dialog = false;$router.push({ path: '/' })">mdi-close</v-icon>
+        </v-card-title>
+        <v-divider></v-divider>
+        <v-card-text style="padding: 20px 24px 10px;font-size: 15px;line-height: 1.6;">
+          <v-alert
+            dense
+            outlined
+            type="error"
+          >
+            По данной ссылке объектов нет
+          </v-alert>
+        </v-card-text>
+      </v-card>
     </v-dialog>
   </v-row>
 </template>
@@ -75,6 +91,7 @@
     methods: {
       loadPage() {
         this.object = this.$store.state.objects.find(item => item.id == this.id);
+        console.log(this.object)
       },
     },
 
