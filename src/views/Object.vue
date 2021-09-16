@@ -91,7 +91,6 @@
     methods: {
       loadPage() {
         this.object = this.$store.state.objects.find(item => item.id == this.id);
-        console.log(this.object)
       },
     },
 
