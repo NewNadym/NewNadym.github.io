@@ -6,8 +6,9 @@
           <a href="/"><img src="./assets/logoS.png" alt="Logo" class="mainLogo"></a>
           <h1 class="mainTitle">Новый Надым 1960-х</h1>
 
-          <app-project-description style="display: inline;margin-right: 10px;"></app-project-description>
-          <app-project-map style="display: inline;margin-right: 10px;"></app-project-map>
+          <app-project-description style="display: inline;margin: 0 2px;"></app-project-description>
+          <app-project-map style="display: inline;margin: 0 2px;"></app-project-map>
+          <app-project-video style="display: inline;margin: 0 2px;"></app-project-video>
           <router-view style="display: inline;"/>
           <hr style="margin-top:20px;">
           <p class="signature">&copy; 2021 <a href="https://vk.com/history_photo_nadym" target="_blank">Сообщество "Надым в объективе"</a></p>
