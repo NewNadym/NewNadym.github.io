@@ -13,40 +13,48 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
-            url: require('../assets/images/1/1.jpg'),
-          },
-          {
             url: require('../assets/images/1/2.jpg'),
+            source: 'https://pastvu.com/p/1192124'
           },
           {
             url: require('../assets/images/1/3.jpg'),
+            source: 'https://pastvu.com/p/1197538'
           },
           {
             url: require('../assets/images/1/4.jpg'),
+            source: 'https://pastvu.com/p/1234914'
           },
           {
             url: require('../assets/images/1/5.jpg'),
+            source: 'https://pastvu.com/p/1171612'
           },
           {
             url: require('../assets/images/1/6.jpg'),
+            source: 'https://pastvu.com/p/1234941'
           },
           {
             url: require('../assets/images/1/7.jpg'),
+            source: 'https://pastvu.com/p/1192116'
           },
           {
             url: require('../assets/images/1/8.jpg'),
+            source: 'https://pastvu.com/p/1168132'
           },
           {
             url: require('../assets/images/1/9.jpg'),
+            source: 'https://pastvu.com/p/1168134'
           },
           {
             url: require('../assets/images/1/10.jpg'),
+            source: 'https://pastvu.com/p/1168298'
           },
           {
             url: require('../assets/images/1/11.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/1/12.jpg'),
+            source: 'https://pastvu.com/p/1234944'
           },
         ]
       },
@@ -58,30 +66,39 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/2/1.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/2/2.jpg'),
+            source: 'https://pastvu.com/p/1234914'
           },
           {
             url: require('../assets/images/2/3.jpg'),
+            source: 'https://pastvu.com/p/1234941'
           },
           {
             url: require('../assets/images/2/4.jpg'),
+            source: 'https://pastvu.com/p/1171612'
           },
           {
             url: require('../assets/images/2/5.jpg'),
+            source: 'https://pastvu.com/p/1192116'
           },
           {
             url: require('../assets/images/2/6.jpg'),
+            source: 'https://pastvu.com/p/1201055'
           },
           {
             url: require('../assets/images/2/7.jpg'),
+            source: 'https://pastvu.com/p/1168134'
           },
           {
             url: require('../assets/images/2/8.jpg'),
+            source: 'https://pastvu.com/p/1168298'
           },
           {
             url: require('../assets/images/2/9.jpg'),
+            source: 'https://pastvu.com/p/1171613'
           },
         ]
       },
@@ -93,15 +110,19 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/3/1.jpg'),
+            source: 'https://pastvu.com/p/1234941'
           },
           {
             url: require('../assets/images/3/2.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/3/3.jpg'),
+            source: 'https://pastvu.com/p/1192128'
           },
           {
             url: require('../assets/images/3/4.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -133,15 +154,19 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/4/6.jpg'),
+            source: 'https://pastvu.com/p/1415530'
           },
           {
             url: require('../assets/images/4/7.jpg'),
+            source: 'https://www.etoretro.ru/pic256796.htm'
           },
           {
             url: require('../assets/images/4/8.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
           {
             url: require('../assets/images/4/9.jpg'),
+            source: 'https://pastvu.com/p/1201090'
           },
         ]
       },
@@ -169,6 +194,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/5/5.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ],
         comments:[
@@ -194,21 +220,27 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/6/1.jpg'),
+            source: 'https://pastvu.com/p/1234921'
           },
           {
             url: require('../assets/images/6/2.jpg'),
+            source: 'https://pastvu.com/p/1201090'
           },
           {
             url: require('../assets/images/6/3.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/6/4.jpg'),
+            source: 'https://pastvu.com/p/1192128'
           },
           {
             url: require('../assets/images/6/5.jpg'),
+            source: 'https://pastvu.com/p/1396591'
           },
           {
             url: require('../assets/images/6/6.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -220,12 +252,15 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/7/1.jpg'),
+            source: 'https://pastvu.com/p/1403327'
           },
           {
             url: require('../assets/images/7/2.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/7/3.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -237,15 +272,19 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/8/1.jpg'),
+            source: 'https://pastvu.com/p/1349814'
           },
           {
             url: require('../assets/images/8/2.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/8/3.jpg'),
+            source: 'https://pastvu.com/p/1396595'
           },
           {
             url: require('../assets/images/8/4.jpg'),
+            source: 'https://pastvu.com/p/1234944'
           },
         ]
       },
@@ -256,22 +295,32 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/9/0.jpg'),
+            source: 'https://pastvu.com/p/1224195'
+          },
+          {
             url: require('../assets/images/9/1.jpg'),
+            source: 'https://pastvu.com/p/1349814'
           },
           {
             url: require('../assets/images/9/2.jpg'),
+            source: 'https://pastvu.com/p/1403327'
           },
           {
             url: require('../assets/images/9/3.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/9/4.jpg'),
+            source: 'https://pastvu.com/p/1396595'
           },
           {
             url: require('../assets/images/9/5.jpg'),
+            source: 'https://pastvu.com/p/1385427'
           },
           {
             url: require('../assets/images/9/6.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -283,15 +332,19 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/10/1.jpg'),
+            source: 'https://pastvu.com/p/1234914'
           },
           {
             url: require('../assets/images/10/2.jpg'),
+            source: 'https://pastvu.com/p/1403327'
           },
           {
             url: require('../assets/images/10/3.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
           {
             url: require('../assets/images/10/4.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -303,9 +356,11 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/11/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
           {
             url: require('../assets/images/11/2.jpg'),
+            source: 'https://pastvu.com/p/1372457'
           },
         ]
       },
@@ -317,6 +372,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/13/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -328,6 +384,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/14/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -339,9 +396,11 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/15/1.jpg'),
+            source: 'https://pastvu.com/p/1327371'
           },
           {
             url: require('../assets/images/15/2.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -353,6 +412,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/16/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -364,6 +424,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/20/1.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -375,39 +436,51 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/22/1.jpg'),
+            source: 'https://pastvu.com/p/1358915'
           },
           {
             url: require('../assets/images/22/2.jpg'),
+            source: 'https://pastvu.com/p/1168139'
           },
           {
             url: require('../assets/images/22/3.jpg'),
+            source: 'https://pastvu.com/p/1385691'
           },
           {
             url: require('../assets/images/22/4.jpg'),
+            source: 'https://pastvu.com/p/1344574'
           },
           {
             url: require('../assets/images/22/5.jpg'),
+            source: 'https://pastvu.com/p/1349814'
           },
           {
             url: require('../assets/images/22/6.jpg'),
+            source: 'https://pastvu.com/p/1396595'
           },
           {
             url: require('../assets/images/22/7.jpg'),
+            source: 'https://pastvu.com/p/1220813'
           },
           {
             url: require('../assets/images/22/8.jpg'),
+            source: 'https://pastvu.com/p/1234944'
           },
           {
             url: require('../assets/images/22/9.jpg'),
+            source: 'https://pastvu.com/p/1192128'
           },
           {
             url: require('../assets/images/22/10.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
           {
             url: require('../assets/images/22/11.jpg'),
+            source: 'https://pastvu.com/p/1219754'
           },
           {
             url: require('../assets/images/22/12.jpg'),
+            source: 'https://pastvu.com/p/1080209'
           },
         ]
       },
@@ -419,6 +492,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/23/1.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
           {
             url: require('../assets/images/23/2.jpg'),
@@ -432,16 +506,20 @@ export default new Vuex.Store({
         description:'<p>В здании размещались трест СГС, райком партии и общежитие офицеров. А с обратной стороны был экспедиционный магазин.</p>',
         images:[
           {
-            url: require('../assets/images/25/1.jpg') 
+            url: require('../assets/images/25/1.jpg'),
+            source: 'https://pastvu.com/p/1358914'
           },
           {
-            url: require('../assets/images/25/2.jpg')
+            url: require('../assets/images/25/2.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
           {
-            url: require('../assets/images/25/3.jpg')
+            url: require('../assets/images/25/3.jpg'),
+            source: 'https://pastvu.com/p/1327371'
           },
           {
-            url: require('../assets/images/25/4.jpg')
+            url: require('../assets/images/25/4.jpg'),
+            source: 'https://pastvu.com/p/1415534'
           },
         ],
       },
@@ -453,9 +531,11 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/26/1.jpg'),
+            source: 'https://pastvu.com/p/1136853'
           },
           {
             url: require('../assets/images/26/2.jpg'),
+            source: 'https://pastvu.com/p/1415534'
           },
         ]
       },
@@ -467,15 +547,19 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/27/1.jpg'),
+            source: 'https://pastvu.com/p/1136853'
           },
           {
             url: require('../assets/images/27/2.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
           {
             url: require('../assets/images/27/3.jpg'),
+            source: 'https://pastvu.com/p/1358914'
           },
           {
             url: require('../assets/images/27/4.jpg'),
+            source: 'https://www.etoretro.ru/pic256794.htm'
           },
         ]
       },
@@ -487,12 +571,15 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/28/1.jpg'),
+            source: 'https://pastvu.com/p/1399139'
           },
           {
             url: require('../assets/images/28/2.jpg'),
+            source: 'https://www.etoretro.ru/pic256799.htm'
           },
           {
             url: require('../assets/images/28/3.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -504,9 +591,11 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/29/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256799.htm'
           },
           {
             url: require('../assets/images/29/2.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -518,12 +607,15 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/31/1.jpg'),
+            source: 'https://pastvu.com/p/1399139'
           },
           {
             url: require('../assets/images/31/2.jpg'),
+            source: 'https://pastvu.com/p/1136853'
           },
           {
             url: require('../assets/images/31/3.jpg'),
+            source: 'https://pastvu.com/p/1136777'
           },
         ]
       },
@@ -535,6 +627,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/36/1.jpg'),
+            source: 'https://pastvu.com/p/1359100'
           },
         ]
       },
@@ -546,6 +639,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/37/1.jpg'),
+            source: 'https://pastvu.com/p/1234193'
           },
         ]
       },
@@ -557,6 +651,19 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/38/1.jpg'),
+            source: 'https://pastvu.com/p/1234193'
+          },
+        ]
+      },
+      {
+        id: 39,
+        title: '39. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUmjVRdoD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>',
+        description: '<p>Жили дядя Коля с тётей Фросей, которую посадили на 8 лет за зерно в кармане. У дяди Коли была лошадь Надым.</p>',
+        images:[
+          {
+            url: require('../assets/images/39/1.jpg'),
+            source: 'https://pastvu.com/p/1136854'
           },
         ]
       },
@@ -568,6 +675,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/40/1.jpg'),
+            source: 'https://pastvu.com/p/1406608'
           },
         ]
       },
@@ -579,6 +687,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/43/1.jpg'),
+            source: 'https://pastvu.com/p/1403979'
           },
         ]
       },
@@ -590,6 +699,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/44/1.jpg'),
+            source: 'https://pastvu.com/p/1403979'
           },
         ]
       },
@@ -601,6 +711,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/45m/1.jpg'),
+            source: 'https://pastvu.com/p/1327371'
           },
         ]
       },
@@ -612,6 +723,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/60m/1.jpg'),
+            source: 'https://www.etoretro.ru/pic256801.htm'
           },
           {
             url: require('../assets/images/60m/2.jpg'),
@@ -626,6 +738,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/69/1.jpg'),
+            source: 'https://pastvu.com/p/1406814'
           },
         ]
       },
@@ -637,6 +750,7 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/pa/1.jpg'),
+            source: 'https://pastvu.com/p/1234914'
           },
         ]
       },
@@ -648,18 +762,23 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/pgd/1.jpg'),
+            source: 'https://pastvu.com/p/1415548'
           },
           {
             url: require('../assets/images/pgd/2.jpg'),
+            source: 'https://pastvu.com/p/1415549'
           },
           {
             url: require('../assets/images/pgd/3.jpg'),
+            source: 'https://pastvu.com/p/1403979'
           },
           {
             url: require('../assets/images/pgd/4.jpg'),
+            source: 'https://pastvu.com/p/1234214'
           },
           {
             url: require('../assets/images/pgd/5.jpg'),
+            source: 'https://pastvu.com/p/1270575'
           },
         ]
       },
