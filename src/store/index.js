@@ -492,6 +492,12 @@ export default new Vuex.Store({
             url: require('../assets/images/14/1.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
           },
+        ],
+        comments:[
+          {
+            text: 'Баньщицей была тетя Наташа Трофименко. В раздевалке стоял квадратный огромный бак с холодной водой. Пока тетя Наташа не видела, мы пацаны после парилки ныряли в этот бак и плескались в нем.',
+            author: '<a href="https://vk.com/id579497158" target="_blank">Виталий Филиппов</a>'
+          },
         ]
       },
       {
