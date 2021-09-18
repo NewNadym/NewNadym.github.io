@@ -13,6 +13,10 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/1/2.jpg'),
+            source: 'https://pastvu.com/p/1416774'
+          },
+          {
             url: require('../assets/images/1/3.jpg'),
             source: 'https://pastvu.com/p/1197538'
           },
@@ -102,6 +106,10 @@ export default new Vuex.Store({
             url: require('../assets/images/2/9.jpg'),
             source: 'https://pastvu.com/p/1171613'
           },
+          {
+            url: require('../assets/images/2/10.jpg'),
+            source: 'https://pastvu.com/p/1416774'
+          },
         ]
       },
       {
@@ -169,6 +177,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/4/9.jpg'),
             source: 'https://pastvu.com/p/1201090'
+          },
+          {
+            url: require('../assets/images/4/10.jpg'),
+            source: 'https://pastvu.com/p/1416832'
           },
         ]
       },
@@ -271,6 +283,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/6/6.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
+          },
+          {
+            url: require('../assets/images/6/7.jpg'),
+            source: 'https://pastvu.com/p/1416832'
           },
         ],
         comments:[
@@ -719,6 +735,10 @@ export default new Vuex.Store({
             url: require('../assets/images/27/4.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
           },
+          {
+            url: require('../assets/images/27/5.jpg'),
+            source: 'https://pastvu.com/p/1416791'
+          },
         ]
       },
       {
@@ -727,6 +747,10 @@ export default new Vuex.Store({
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=72.509353%2C65.536616&mode=usermaps&source=constructorLink&um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&z=19" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: '',
         images:[
+          {
+            url: require('../assets/images/28/0.jpg'),
+            source: 'https://pastvu.com/p/1416805'
+          },
           {
             url: require('../assets/images/28/1.jpg'),
             source: 'https://pastvu.com/p/1399139'
@@ -764,6 +788,10 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/31/0.jpg'),
+            source: 'https://pastvu.com/p/1416805'
+          },
+          {
             url: require('../assets/images/31/1.jpg'),
             source: 'https://pastvu.com/p/1399139'
           },
@@ -774,6 +802,42 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/31/3.jpg'),
             source: 'https://pastvu.com/p/1136777'
+          },
+          {
+            url: require('../assets/images/31/4.jpg'),
+            source: 'https://pastvu.com/p/1416791'
+          },
+        ]
+      },
+      {
+        id: 32,
+        title: '32. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUmrCr2OB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/32/0.jpg'),
+            source: 'https://pastvu.com/p/1416805'
+          },
+          {
+            url: require('../assets/images/32/1.jpg'),
+            source: 'https://pastvu.com/p/1416791'
+          },
+        ]
+      },
+      {
+        id: 33,
+        title: '33. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUmrCvX8D" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/33/0.jpg'),
+            source: 'https://pastvu.com/p/1416805'
+          },
+          {
+            url: require('../assets/images/33/1.jpg'),
+            source: 'https://pastvu.com/p/1416791'
           },
         ]
       },
