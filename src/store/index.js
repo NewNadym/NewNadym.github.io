@@ -182,6 +182,10 @@ export default new Vuex.Store({
             url: require('../assets/images/4/10.jpg'),
             source: 'https://pastvu.com/p/1416832'
           },
+          {
+            url: require('../assets/images/4/11.jpg'),
+            source: 'https://pastvu.com/p/1417882'
+          },
         ]
       },
       {
@@ -288,6 +292,26 @@ export default new Vuex.Store({
             url: require('../assets/images/6/7.jpg'),
             source: 'https://pastvu.com/p/1416832'
           },
+          {
+            url: require('../assets/images/6/8.jpg'),
+            source: 'https://pastvu.com/p/1417882'
+          },
+          {
+            url: require('../assets/images/6/9.jpg'),
+            source: 'https://pastvu.com/p/1417890'
+          },
+          {
+            url: require('../assets/images/6/10.jpg'),
+            source: 'https://pastvu.com/p/1417891'
+          },
+          {
+            url: require('../assets/images/6/11.jpg'),
+            source: 'https://pastvu.com/p/1417889'
+          },
+          {
+            url: require('../assets/images/6/12.jpg'),
+            source: 'https://pastvu.com/p/1417876'
+          },
         ],
         comments:[
           {
@@ -313,6 +337,14 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/7/3.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
+          },
+          {
+            url: require('../assets/images/7/4.jpg'),
+            source: 'https://pastvu.com/p/1417889'
+          },
+          {
+            url: require('../assets/images/7/5.jpg'),
+            source: 'https://pastvu.com/p/1417876'
           },
         ]
       },
@@ -411,6 +443,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/10/4.jpg'),
             source: 'https://pastvu.com/p/1234193'
+          },
+          {
+            url: require('../assets/images/10/5.jpg'),
+            source: 'https://www.etoretro.ru/pic257015.htm'
           },
         ],
         comments:[
@@ -1155,6 +1191,14 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/pgd/5.jpg'),
             source: 'https://pastvu.com/p/1270575'
+          },
+          {
+            url: require('../assets/images/pgd/6.jpg'),
+            source: 'https://pastvu.com/p/1417902'
+          },
+          {
+            url: require('../assets/images/pgd/7.jpg'),
+            source: 'https://pastvu.com/p/1417904'
           },
         ],
         comments:[
