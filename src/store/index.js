@@ -454,6 +454,10 @@ export default new Vuex.Store({
             url: require('../assets/images/10/5.jpg'),
             source: 'https://www.etoretro.ru/pic257015.htm'
           },
+          {
+            url: require('../assets/images/10/6.jpg'),
+            source: 'https://pastvu.com/p/1441795'
+          },
         ],
         comments:[
           {
