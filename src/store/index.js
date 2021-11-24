@@ -134,6 +134,10 @@ export default new Vuex.Store({
             url: require('../assets/images/3/4.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
           },
+          {
+            url: require('../assets/images/3/5.jpg'),
+            source: 'https://pastvu.com/p/1460815'
+          },
         ]
       },
       {
@@ -185,6 +189,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/4/11.jpg'),
             source: 'https://pastvu.com/p/1417882'
+          },
+          {
+            url: require('../assets/images/4/12.jpg'),
+            source: 'https://pastvu.com/p/1460815'
           },
         ]
       },
@@ -689,6 +697,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/22/14.jpg'),
             source: 'https://pastvu.com/p/1430228'
+          },
+          {
+            url: require('../assets/images/22/15.jpg'),
+            source: 'https://pastvu.com/p/1449232'
           },
         ],
         comments:[
