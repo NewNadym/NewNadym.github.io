@@ -54,7 +54,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/1/12.jpg'),
-            source: 'https://pastvu.com/p/1234944'
+            source: 'https://pastvu.com/p/1549428'
           },
         ],
         comments:[
@@ -194,6 +194,10 @@ export default new Vuex.Store({
             url: require('../assets/images/4/12.jpg'),
             source: 'https://pastvu.com/p/1460815'
           },
+          {
+            url: require('../assets/images/4/13.jpg'),
+            source: 'https://pastvu.com/p/1542805'
+          },
         ]
       },
       {
@@ -320,6 +324,10 @@ export default new Vuex.Store({
             url: require('../assets/images/6/12.jpg'),
             source: 'https://pastvu.com/p/1417876'
           },
+          {
+            url: require('../assets/images/6/13.jpg'),
+            source: 'https://pastvu.com/p/1542804'
+          },
         ],
         comments:[
           {
@@ -354,6 +362,10 @@ export default new Vuex.Store({
             url: require('../assets/images/7/5.jpg'),
             source: 'https://pastvu.com/p/1417876'
           },
+          {
+            url: require('../assets/images/7/6.jpg'),
+            source: 'https://pastvu.com/p/1542804'
+          },
         ],
         comments:[
           {
@@ -382,7 +394,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/8/4.jpg'),
-            source: 'https://pastvu.com/p/1234944'
+            source: 'https://pastvu.com/p/1549428'
           },
         ]
       },
@@ -423,6 +435,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/9/7.jpg'),
             source: 'https://pastvu.com/p/1192124'
+          },
+          {
+            url: require('../assets/images/9/8.jpg'),
+            source: 'https://pastvu.com/p/1542804'
           },
         ],
         comments:[
@@ -465,6 +481,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/10/6.jpg'),
             source: 'https://pastvu.com/p/1441795'
+          },
+          {
+            url: require('../assets/images/10/7.jpg'),
+            source: 'https://pastvu.com/p/1542804'
           },
         ],
         comments:[
@@ -619,6 +639,10 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/16/0.jpg'),
+            source: 'https://pastvu.com/p/1622084'
+          },
+          {
             url: require('../assets/images/16/1.jpg'),
             source: 'https://www.etoretro.ru/pic256794.htm'
           },
@@ -672,7 +696,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/22/8.jpg'),
-            source: 'https://pastvu.com/p/1234944'
+            source: 'https://pastvu.com/p/1549428'
           },
           {
             url: require('../assets/images/22/9.jpg'),
@@ -701,6 +725,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/22/15.jpg'),
             source: 'https://pastvu.com/p/1449232'
+          },
+          {
+            url: require('../assets/images/22/16.jpg'),
+            source: 'https://pastvu.com/p/1552017'
           },
         ],
         comments:[
@@ -1210,6 +1238,10 @@ export default new Vuex.Store({
         mapUrl: '',
         description: '<p>Железная дорога была проложена через Надым в 1949 года. Со стороны Салехарда она шла в районе ул. Ямальской. В районе круговой развязки приближалась к ул. Зверева. И дальше шла вдоль ул. Зверева. В районе перекрестка улиц Зверева и Рыжкова стоял семафор.</p><p>Мост через реку Надым был построен к декабрю 1949 года. В его основании были деревянные свайные опоры, по которым были уложены металлические 11-метровые пакеты.</p><p>С закрытием 501-й стройки железнодорожное движение было остановлено. Были надежды на восстановление железнодорожного полотна. Но этого так и не случилось.</p>',
         images:[
+          {
+            url: require('../assets/images/pgd/0.jpg'),
+            source: 'https://pastvu.com/p/1622291'
+          },
           {
             url: require('../assets/images/pgd/1.jpg'),
             source: 'https://pastvu.com/p/1415548'
