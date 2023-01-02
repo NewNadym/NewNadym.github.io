@@ -136,7 +136,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/3/4.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
           {
             url: require('../assets/images/3/5.jpg'),
@@ -180,7 +180,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/4/8.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
           {
             url: require('../assets/images/4/9.jpg'),
@@ -232,7 +232,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/5/5.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
         ],
         comments:[
@@ -306,7 +306,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/6/6.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
           {
             url: require('../assets/images/6/7.jpg'),
@@ -364,7 +364,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/7/3.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
           {
             url: require('../assets/images/7/4.jpg'),
@@ -568,6 +568,10 @@ export default new Vuex.Store({
             url: require('../assets/images/11/2.jpg'),
             source: 'https://pastvu.com/p/1372457'
           },
+          {
+            url: require('../assets/images/11/3.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ],
         comments:[
           {
@@ -622,7 +626,11 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/14/1.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
+            url: require('../assets/images/14/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ],
         comments:[
@@ -648,7 +656,7 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/15/2.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
           },
         ]
       },
@@ -664,7 +672,27 @@ export default new Vuex.Store({
           },
           {
             url: require('../assets/images/16/1.jpg'),
-            source: 'https://www.etoretro.ru/pic256794.htm'
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
+            url: require('../assets/images/16/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
+        ]
+      },
+      {
+        id: 19,
+        title: '19. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;source=constructor" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/19/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
+            url: require('../assets/images/19/1.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ]
       },
@@ -675,8 +703,16 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/20/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
             url: require('../assets/images/20/1.jpg'),
             source: 'https://pastvu.com/p/1234193'
+          },
+          {
+            url: require('../assets/images/20/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ]
       },
@@ -754,6 +790,10 @@ export default new Vuex.Store({
             url: require('../assets/images/22/17.jpg'),
             source: 'https://pastvu.com/p/1631136'
           },
+          {
+            url: require('../assets/images/22/18.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ],
         comments:[
           {
@@ -799,6 +839,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/23/2.jpg'),
           },
+          {
+            url: require('../assets/images/23/3.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ],
         comments:[
           {
@@ -812,6 +856,18 @@ export default new Vuex.Store({
           {
             text: 'Когда выпал кирпич из свода, а печника не могли найти, хлеб начали возить из Ныды и Старого Надыма, там на фактории тоже пекарня была. Но тот хлеб никак нельзя было сравнить с тёти Юлиным. С фактории хлеб с песком был.',
             author: '<a href="https://vk.com/id150551000" target="_blank">Валерий Мартынов</a> про вторую фотографию'
+          },
+        ]
+      },
+      {
+        id: 24,
+        title: '24. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;source=constructor" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/24/1.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ]
       },
@@ -841,6 +897,10 @@ export default new Vuex.Store({
             url: require('../assets/images/25/5.jpg'),
             source: 'https://pastvu.com/p/1631123'
           },
+          {
+            url: require('../assets/images/25/6.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ],
         comments:[
           {
@@ -864,6 +924,10 @@ export default new Vuex.Store({
         description: '',
         images:[
           {
+            url: require('../assets/images/26/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
+          {
             url: require('../assets/images/26/1.jpg'),
             source: 'https://pastvu.com/p/1136853'
           },
@@ -875,6 +939,10 @@ export default new Vuex.Store({
             url: require('../assets/images/26/3.jpg'),
             source: 'https://pastvu.com/p/1631123'
           },
+          {
+            url: require('../assets/images/26/4.jpg'),
+            source: 'https://pastvu.com/p/1705538'
+          },
         ]
       },
       {
@@ -883,6 +951,10 @@ export default new Vuex.Store({
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=72.509650%2C65.536204&mode=usermaps&source=constructorLink&um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&z=19" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: '',
         images:[
+          {
+            url: require('../assets/images/27/0.jpg'),
+            source: 'https://pastvu.com/p/1704757'
+          },
           {
             url: require('../assets/images/27/1.jpg'),
             source: 'https://pastvu.com/p/1136853'
@@ -913,18 +985,22 @@ export default new Vuex.Store({
         images:[
           {
             url: require('../assets/images/28/0.jpg'),
-            source: 'https://pastvu.com/p/1416805'
+            source: 'https://pastvu.com/p/1704757'
           },
           {
             url: require('../assets/images/28/1.jpg'),
-            source: 'https://pastvu.com/p/1399139'
+            source: 'https://pastvu.com/p/1416805'
           },
           {
             url: require('../assets/images/28/2.jpg'),
-            source: 'https://pastvu.com/p/1446040'
+            source: 'https://pastvu.com/p/1399139'
           },
           {
             url: require('../assets/images/28/3.jpg'),
+            source: 'https://pastvu.com/p/1446040'
+          },
+          {
+            url: require('../assets/images/28/4.jpg'),
             source: 'https://pastvu.com/p/1234193'
           },
         ]
@@ -987,6 +1063,10 @@ export default new Vuex.Store({
             url: require('../assets/images/32/1.jpg'),
             source: 'https://pastvu.com/p/1416791'
           },
+          {
+            url: require('../assets/images/32/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
         ]
       },
       {
@@ -1002,6 +1082,30 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/33/1.jpg'),
             source: 'https://pastvu.com/p/1416791'
+          },
+        ]
+      },
+      {
+        id: 34,
+        title: '34. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;source=constructor" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/34/1.jpg'),
+            source: 'https://pastvu.com/p/1704756'
+          },
+        ]
+      },
+      {
+        id: 35,
+        title: '35. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A166c81c0eae364a8133bc8e3b87f5432edfc0f232bce323ada856fcc3b7e173d&amp;source=constructor" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/35/1.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ]
       },
@@ -1073,6 +1177,10 @@ export default new Vuex.Store({
             url: require('../assets/images/39/1.jpg'),
             source: 'https://pastvu.com/p/1136854'
           },
+          {
+            url: require('../assets/images/39/2.jpg'),
+            source: 'https://pastvu.com/p/1705538'
+          },
         ], 
         comments: [
           {
@@ -1098,6 +1206,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/40/1.jpg'),
             source: 'https://pastvu.com/p/1406608'
+          },
+          {
+            url: require('../assets/images/40/2.jpg'),
+            source: 'https://pastvu.com/p/1704756'
           },
         ],
         comments:[
