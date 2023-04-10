@@ -717,6 +717,18 @@ export default new Vuex.Store({
         ]
       },
       {
+        id: 21,
+        title: '21. Жилой дом',
+        mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCU0FGsRdA" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[
+          {
+            url: require('../assets/images/21/1.jpg'),
+            source: 'https://pastvu.com/p/1790511'
+          },
+        ]
+      },
+      {
         id: 22,
         title: '22. Генеральский домик',
         mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUmqQbDPB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
@@ -1166,6 +1178,10 @@ export default new Vuex.Store({
           {
             url: require('../assets/images/38/1.jpg'),
             source: 'https://pastvu.com/p/1234193'
+          },
+          {
+            url: require('../assets/images/38/2.jpg'),
+            source: 'https://pastvu.com/p/1790509'
           },
         ],
         comments: [
